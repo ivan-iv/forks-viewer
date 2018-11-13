@@ -86,7 +86,7 @@ export const Actions = {
       return API.fetchForks(term, page)
         .then(res => dispatch({
           type: Types.SEARCH_FORKS_SUCCESS,
-          payload: Object.assign({}, res)
+          payload: res
         }))
         .catch(err => dispatch({
           type: Types.SEARCH_FORKS_FAILURE,
