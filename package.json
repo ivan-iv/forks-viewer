@@ -1,0 +1,25 @@
+{
+  "name": "web_touch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": " parcel index.html --no-hmr"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "classnames": "2.2.6",
+    "parcel-bundler": "1.10.3",
+    "prop-types": "15.6.2",
+    "react": "16.6.1",
+    "react-dom": "16.6.1",
+    "react-redux": "5.1.0",
+    "redux": "4.0.1",
+    "superagent": "4.0.0-beta.5"
+  },
+  "devDependencies": {
+    "sass": "1.14.3"
+  }
+}
